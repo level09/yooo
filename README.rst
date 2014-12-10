@@ -14,7 +14,7 @@ Shorten a URL
 
 ::
 
-curl http://domain.com/v1/url  -H 'Content-Type: application/json'  -d '{"longUrl": "http://www.google.com/"}'
+    curl http://domain.com/v1/url  -H 'Content-Type: application/json'  -d '{"longUrl": "http://www.google.com/"}'
 
 ::
 
