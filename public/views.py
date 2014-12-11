@@ -33,7 +33,7 @@ def shorten(longUrl):
         link.save()
         link.shortUrl = short_url.encode_url(link.lid)
         link.save()
-        shortUrl =  (%s/%s) % (request.host,link.shortUrl)
+        shortUrl =  "%s/%s" % (request.host,link.shortUrl)
         return Response('{"id":"%s","longUrl":"%s"}' % (shortUrl,longUrl),mimetype='application/json')
 
 def expand(shortUrl):
