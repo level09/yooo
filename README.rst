@@ -26,6 +26,9 @@ Expand a URL:
 ::
 
 
+You can play with the API on the demo website: http://yooo.link
+
+
 License
 -------
 
