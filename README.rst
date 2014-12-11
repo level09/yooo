@@ -7,6 +7,16 @@ This is a production ready URL shortener App based on Project Enferno http://enf
 
 it has a similar API to Google Shortener.
 
+This API can be deployed within 3 minutes using this ansible script: 
+
+https://github.com/level09/yooo-ansible
+
+You can also check out this tutorial: 
+
+https://medium.com/@level09/introducing-yooo-a-url-shortener-api-based-on-enferno-framework-823bdc2afa05
+
+
+
 Examples
 ---------
 
